@@ -1,0 +1,10 @@
+body{ font-family: Arial, Helvetica, sans-serif; }
+.container{ max-width:800px; margin:0 auto; padding:20px; }
+header{ display:flex; justify-content:space-between; align-items:center; }
+nav a, nav button{ margin-left:8px; }
+.form{ display:flex; flex-direction:column; gap:8px; max-width:320px; }
+.form-inline{ display:flex; gap:8px; margin-bottom:12px; }
+.error{ color:crimson; }
+.todos ul{ list-style:none; padding:0; }
+.todos li{ display:flex; justify-content:space-between; padding:6px 0; }
+.done span{ text-decoration:line-through; }
